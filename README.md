@@ -6,7 +6,11 @@ This repository contains a PyTorch implementation of [Salesforce Research](https
 
 The QRNN provides similar accuracy to the LSTM but can be betwen 2 and 17 times faster than the highly optimized NVIDIA cuDNN LSTM implementation depending on the use case.
 
-To install, simply run:
+To install our fork, simply run:
+
+`pip install cupy pynvrtc git+https://github.com/assemblyai/pytorch-qrnn`
+
+For the original repo, run
 
 `pip install cupy pynvrtc git+https://github.com/salesforce/pytorch-qrnn`
 
